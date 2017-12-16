@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {EwbTemplateModule} from "./src/module/ewbTemplate.module";
+import {EwbBookingModule} from "./BookingModule/EwbBookingModule";
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import {EwbTemplateModule} from "./src/module/ewbTemplate.module";
   ],
   imports: [
     BrowserModule,
-    EwbTemplateModule
+    EwbBookingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

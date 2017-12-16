@@ -1,1 +1,7 @@
-<ewb-template></ewb-template>
+<ewb-booking-input-duration></ewb-booking-input-duration>
+
+<div *ngIf="bookingInputService.duration.$ | async; let duration">
+  {{duration}}
+</div>
+
+

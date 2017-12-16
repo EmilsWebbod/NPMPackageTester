@@ -1,0 +1,3 @@
+<select [name]="name" (change)="durationChange($event.target.value)">
+  <option *ngFor="let option of bookingInput.duration_options" [value]="option">{{ option | Capitalize }}<ng-content></ng-content></option>
+</select>
