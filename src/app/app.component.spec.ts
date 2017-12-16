@@ -1,6 +1,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { EwbTemplateComponent, EwbTemplateService } from 'npmtemplate';
+import {EwbTemplateService} from "./src/service/ewbTemplate.service";
+import {EwbTemplateComponent} from "./src/component/ewbTemplate.component";
 
 describe('AppComponent', () => {
   beforeEach(async(() => {

@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { EwbTemplateModule } from 'npmtemplate';
+import {EwbTemplateModule} from "./src/module/ewbTemplate.module";
 
 @NgModule({
   declarations: [
